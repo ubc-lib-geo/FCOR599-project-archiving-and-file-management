@@ -1,0 +1,266 @@
+{"0": {
+    "doc": "Acknowledgements",
+    "title": "Acknowledgements",
+    "content": "Site template adapted from the just-the-docs Jekyll template created by Patrick Marsceil and available under the MIT License. ",
+    "url": "http://localhost:4000/acknowledgements.html",
+    "relUrl": "/acknowledgements.html"
+  },"1": {
+    "doc": "Attribute Naming Best Practices",
+    "title": "Attribute Naming",
+    "content": "When working with vector data you may encounter additional difficulties with naming attribute field names, especially if they’re the product of a calculation using other field names. So it’s good to abide by some important rules. If you need to start a codebook to define condensed attribute names, use any software or tool you’re comfortable using to create it, like Google Docs, but you should save it as a file in a plain text format like .txt or .md. Just as with file naming conventions, attribute naming best practices include being consistent and keeping file names short and descriptive. ",
+    "url": "http://localhost:4000/content/attribute-naming-best-practices.html#attribute-naming",
+    "relUrl": "/content/attribute-naming-best-practices.html#attribute-naming"
+  },"2": {
+    "doc": "Attribute Naming Best Practices",
+    "title": "Character Length",
+    "content": "Be aware of character limits – Shapefile limit is 10. Other filetypes different have different specs, but a Shapefile’s 10 character limit is notoriously small. Do . POPDEN_20 . Dont . population_density_2020 . ",
+    "url": "http://localhost:4000/content/attribute-naming-best-practices.html#character-length",
+    "relUrl": "/content/attribute-naming-best-practices.html#character-length"
+  },"3": {
+    "doc": "Attribute Naming Best Practices",
+    "title": "Delimiters",
+    "content": "Don’t waste characters on _ if you don’t need to. Use camelCase when necessary to divide field elements. Do . fieldName . Dont . thisismyfieldname . ",
+    "url": "http://localhost:4000/content/attribute-naming-best-practices.html#delimiters",
+    "relUrl": "/content/attribute-naming-best-practices.html#delimiters"
+  },"4": {
+    "doc": "Attribute Naming Best Practices",
+    "title": "Codebooks",
+    "content": "Codebooks list your field names and labels and include descriptions of your data and attributes. For an example see the “Data Dictionary” for the BC Digital Roads Atlas. If you begin creating a codebook for your data, be sure to keep it up to date. ",
+    "url": "http://localhost:4000/content/attribute-naming-best-practices.html#codebooks",
+    "relUrl": "/content/attribute-naming-best-practices.html#codebooks"
+  },"5": {
+    "doc": "Attribute Naming Best Practices",
+    "title": "Attribute Naming Best Practices",
+    "content": " ",
+    "url": "http://localhost:4000/content/attribute-naming-best-practices.html",
+    "relUrl": "/content/attribute-naming-best-practices.html"
+  },"6": {
+    "doc": "Directory Structures",
+    "title": "Directory Structures",
+    "content": "You should consider how you want to organize the folders that contain your data and documentation early on. This could be a date-based system, a filetype-based system, a project-based system, or any other predictable system that makes logical sense in the context of your data. Folders that organize data for you AND for others should be logical and predictable . ",
+    "url": "http://localhost:4000/content/directory-structure.html",
+    "relUrl": "/content/directory-structure.html"
+  },"7": {
+    "doc": "File Naming Best Practices",
+    "title": "File Naming",
+    "content": "Naming files doesn’t seem super important, but it’s one of the better investments you can make in good data management habits. Best practices include being consistent and keeping file names short and descriptive. ",
+    "url": "http://localhost:4000/content/file-naming-best-practices.html#file-naming",
+    "relUrl": "/content/file-naming-best-practices.html#file-naming"
+  },"8": {
+    "doc": "File Naming Best Practices",
+    "title": "Dates",
+    "content": "If you use dates in your filenames, use the YYYYMMDD format. Dates formatted this way can be chronologically sortable and searched (within “homework” or other section of your files). Do . homework_20200319.txt . Dont . homework_19032020.txt . ",
+    "url": "http://localhost:4000/content/file-naming-best-practices.html#dates",
+    "relUrl": "/content/file-naming-best-practices.html#dates"
+  },"9": {
+    "doc": "File Naming Best Practices",
+    "title": "Identifiers",
+    "content": "Identifiers are handy when you need to apply unique labels or abbreviations to organize your files. This also helps to keep similar files together and make them easy to “browse”. Use unique abbreviations for project names or grants, separated by a _ . Do . fhabc_notes.txt . Dont . forest_history_association_of_BC_notes.txt . ",
+    "url": "http://localhost:4000/content/file-naming-best-practices.html#identifiers",
+    "relUrl": "/content/file-naming-best-practices.html#identifiers"
+  },"10": {
+    "doc": "File Naming Best Practices",
+    "title": "Descriptors",
+    "content": "Descriptors are often necessary in addition to an identifier, and should be just enough to describe the content. Keep them minimal and try to keep them unique. Do . fhabc_grantProposal.pdf . Dont . fhabc.pdf . ",
+    "url": "http://localhost:4000/content/file-naming-best-practices.html#descriptors",
+    "relUrl": "/content/file-naming-best-practices.html#descriptors"
+  },"11": {
+    "doc": "File Naming Best Practices",
+    "title": "Delimiters",
+    "content": "Separating filename elements with delimiters allow for more flexibility to describe and organize your files. However, many special characters can confuse software or operating systems. For example databases will typically only accept file and attribute names with _ delimiters. Do . fhabc_grantProposal_v01.pdf . Dont . fhabc, grant proposal –&gt;[v01].pdf . ",
+    "url": "http://localhost:4000/content/file-naming-best-practices.html#delimiters",
+    "relUrl": "/content/file-naming-best-practices.html#delimiters"
+  },"12": {
+    "doc": "File Naming Best Practices",
+    "title": "Versions",
+    "content": "If you are updating the same file with versions, then make sure you’re consistent with how versions are differentiated. Note versions sequentially or with unique date and time. Do . NRC_userGuidelines_v04.doc . Do . MSL-fraserRiverSamples-20200319-0900.csv . Dont . userGuidelines_final_edits_2_forreal.doc . ",
+    "url": "http://localhost:4000/content/file-naming-best-practices.html#versions",
+    "relUrl": "/content/file-naming-best-practices.html#versions"
+  },"13": {
+    "doc": "File Naming Best Practices",
+    "title": "Other Important Things",
+    "content": ". | Be aware of character limits | Don’t start filenames with a number or underscore | Don’t use spaces as delimiters | . UBC Library has a very good guide on file naming best practices. The Library is also a place to start with questions regarding data management best practices. ",
+    "url": "http://localhost:4000/content/file-naming-best-practices.html#other-important-things",
+    "relUrl": "/content/file-naming-best-practices.html#other-important-things"
+  },"14": {
+    "doc": "File Naming Best Practices",
+    "title": "File Naming Best Practices",
+    "content": " ",
+    "url": "http://localhost:4000/content/file-naming-best-practices.html",
+    "relUrl": "/content/file-naming-best-practices.html"
+  },"15": {
+    "doc": "Geospatial Data Management",
+    "title": "What is Geospatial Data Management?",
+    "content": "Your data has a lifecycle of use. As it passes through this lifecycle you make decisions about things like when to edit it, where to store it, who to share it with, and how to describe it. Have you ever thought? . | How should I name my files? | Where can I store my data? | What should I keep track of when I make changes? | How will I explain this to others? | . If so, then you’re already thinking about your data management practices. ",
+    "url": "http://localhost:4000/content/geospatial-data-management.html#what-is-geospatial-data-management",
+    "relUrl": "/content/geospatial-data-management.html#what-is-geospatial-data-management"
+  },"16": {
+    "doc": "Geospatial Data Management",
+    "title": "Data Workflows",
+    "content": "Not only does your data transition through it’s own lifecycle, it may also be passed along through workflows. An example of a data workflow: . GIS Analyst ⮕ IT Specialist ⮕ Community Member . A GIS analyst might create a wildfire urban interface dataset. It’s then passed along to an IT specialist to be deposited into a shared repository or data catalog. Then a community volunteer uses the data to influence decisions about a new development. Graduate Research Assistant ⮕ Research Cluster ⮕ Funder . Can you explain this workflow? . ",
+    "url": "http://localhost:4000/content/geospatial-data-management.html#data-workflows",
+    "relUrl": "/content/geospatial-data-management.html#data-workflows"
+  },"17": {
+    "doc": "Geospatial Data Management",
+    "title": "Workflows Can Break Down",
+    "content": "These workflows have a tendency to break down if essential data management principles are not followed. I’m sure you can think of a time when you acquired data that was unusable, obsolete, or missing. Some examples of things that might break down a data workflow: . | Inadequately described data versions | Meaningless filenames | Changes in storage locations | . What else can break down a data workflow? . ",
+    "url": "http://localhost:4000/content/geospatial-data-management.html#workflows-can-break-down",
+    "relUrl": "/content/geospatial-data-management.html#workflows-can-break-down"
+  },"18": {
+    "doc": "Geospatial Data Management",
+    "title": "Data Management Plans",
+    "content": "Data management plans (DMPs) are documents that outline how one will organize, store, and share your research data. They can be started before the project begins, and continuously modified during the life of the project. DMPs are often necessary for funding proposals and satisfying grant requirements. Tools to guide your development of a DMP: . | For Canadian funding agencies such as CIHR, NSERC and SSHRC: DMP Assistant | For U.S. funding agencies such as NIH and NSF: DMP Tool | . More information about DMPs can be found at UBC Library’s Research Data Management site. ",
+    "url": "http://localhost:4000/content/geospatial-data-management.html#data-management-plans",
+    "relUrl": "/content/geospatial-data-management.html#data-management-plans"
+  },"19": {
+    "doc": "Geospatial Data Management",
+    "title": "Geospatial Data Management",
+    "content": " ",
+    "url": "http://localhost:4000/content/geospatial-data-management.html",
+    "relUrl": "/content/geospatial-data-management.html"
+  },"20": {
+    "doc": "Geospatial Metadata",
+    "title": "Geospatial Metadata",
+    "content": "Metadata is information that describes information (or anything really – think about product labels). It’s super important to understand the value of metadata and how it can continually benefit you, your data, and the users of your data. Metadata describes your data so it can be used, shared, and understood widely. Your README file is an important part of your dataset’s metadata . The U.S. Geological Survey has prepared a handy document which prompts you to think about what is important to include your data’s metadata. You should be prepared to answer these questions from USGS Metadata in Plain Language . ",
+    "url": "http://localhost:4000/content/geospatial-metadata.html",
+    "relUrl": "/content/geospatial-metadata.html"
+  },"21": {
+    "doc": "Geospatial Metadata",
+    "title": "Examples of Geospatial Metadata",
+    "content": "Here are two examples of metadata records for geodata. The first link goes to a web page with metadata elements formatted for discovery. Metadata elements are there (title, contact info, description, purpose, etc.), but they’ve been styled for human readability in the form of this web page. The second link is plain XML – meant for programmatic discovery and transformation into new formats. | metadata formatted for web discovery | xml-encoded metadata | . ",
+    "url": "http://localhost:4000/content/geospatial-metadata.html#examples-of-geospatial-metadata",
+    "relUrl": "/content/geospatial-metadata.html#examples-of-geospatial-metadata"
+  },"22": {
+    "doc": "Geospatial Metadata",
+    "title": "The Difficulties with Metadata",
+    "content": "Frankly, metadata is pretty boring, and there are lots of more exciting things you’d probably rather do with your data than document and describe it. It can take a lot of time to create, and it might often seem like there is no clear choice for the best standard or format to use. …BUT . If you don’t create quality metadata, it could have significant negative effects on your data and your credibility. Bad metadata negatively affects: . | integrity | discoverability | preservability | useablity | . ",
+    "url": "http://localhost:4000/content/geospatial-metadata.html#the-difficulties-with-metadata",
+    "relUrl": "/content/geospatial-metadata.html#the-difficulties-with-metadata"
+  },"23": {
+    "doc": "Geospatial Metadata",
+    "title": "Metadata Types",
+    "content": "You can think about metadata in these 4 categories: descriptive, technical, discovery, and administrative. ",
+    "url": "http://localhost:4000/content/geospatial-metadata.html#metadata-types",
+    "relUrl": "/content/geospatial-metadata.html#metadata-types"
+  },"24": {
+    "doc": "Geospatial Metadata",
+    "title": "Descriptive Metadata",
+    "content": "Descriptive metadata is pretty self explanatory. This gives you and others all the necessary information describing your data or study, including how it was derived and uncertainty errors. It will include things like: . | Abstract/methodology | Attribute descriptions | Purpose | Uncertainty errors | Access | . ",
+    "url": "http://localhost:4000/content/geospatial-metadata.html#descriptive-metadata",
+    "relUrl": "/content/geospatial-metadata.html#descriptive-metadata"
+  },"25": {
+    "doc": "Geospatial Metadata",
+    "title": "Technical Metadata",
+    "content": "Technical metadata is highly subject-specific. Different industries may have different technical metadata requirements. It will include things like: . | CRS / projection / datum information | Attribute data types | Software used | Character encoding | . ",
+    "url": "http://localhost:4000/content/geospatial-metadata.html#technical-metadata",
+    "relUrl": "/content/geospatial-metadata.html#technical-metadata"
+  },"26": {
+    "doc": "Geospatial Metadata",
+    "title": "Discovery Metadata",
+    "content": "Discovery metadata is used to index and link your data with others. When you search and filter data by subject, you’re using discovery metadata. It will include things like: . | title | date | keywords | geographic extent | . ",
+    "url": "http://localhost:4000/content/geospatial-metadata.html#discovery-metadata",
+    "relUrl": "/content/geospatial-metadata.html#discovery-metadata"
+  },"27": {
+    "doc": "Geospatial Metadata",
+    "title": "Administrative Metadata",
+    "content": "Administrative metadata provides information about ownership, update frequencies, and terms of use. It will include things like: . | Copyright statements or licenses | Contact information | Status | . ",
+    "url": "http://localhost:4000/content/geospatial-metadata.html#administrative-metadata",
+    "relUrl": "/content/geospatial-metadata.html#administrative-metadata"
+  },"28": {
+    "doc": "Geospatial Metadata",
+    "title": "Metadata Standards",
+    "content": "You all probably understand the general need for standards, and those same things can apply to metadata. Yes, there are a lot of metadata standards, and that’s ok. They have a tendency to be thought of as very rigid and rules-based, but they can also be flexible. Why do we have them? They can be essential to ease transformation/conversion processes that might happen to your metadata, and they ensure your metadata is properly interpreted. In GIS there are two widely used standards that have rules for what should be included in metadata records, how it is described, and how it’s structured/encoded. : FGDC and ISO 19115/19139. ",
+    "url": "http://localhost:4000/content/geospatial-metadata.html#metadata-standards",
+    "relUrl": "/content/geospatial-metadata.html#metadata-standards"
+  },"29": {
+    "doc": "Geospatial Metadata",
+    "title": "ISO Metadata",
+    "content": "ISO has recently emerged as the recommended choice between the two due to its flexibility, comprehensiveness, and wide recognition. Complete documentation for ISO standards cost money, but there are tools you can use to automatically encode your metadata to ISO standards. ",
+    "url": "http://localhost:4000/content/geospatial-metadata.html#iso-metadata",
+    "relUrl": "/content/geospatial-metadata.html#iso-metadata"
+  },"30": {
+    "doc": "Geospatial Metadata",
+    "title": "Metadata Tools and Editors",
+    "content": "The most common way to create and edit geographic metadata is by using a Desktop GIS software like ArcGIS Pro. But there are also many other tools you can use if you ‘re not using a GIS. For example: . | ArcGIS Pro! | catMDEdit | mdEditor.org | GeoNetwork | and more!! | . Creating metadata can be tedious. But remember: metadata will make your data more reproducible, sharable, and impactful. ",
+    "url": "http://localhost:4000/content/geospatial-metadata.html#metadata-tools-and-editors",
+    "relUrl": "/content/geospatial-metadata.html#metadata-tools-and-editors"
+  },"31": {
+    "doc": "Introduction",
+    "title": "Learning objectives",
+    "content": "At the end of this session, you will be able to: . | Understand the general best practices for geospatial data management | Understand how geospatial metadata applies to your files and to your research project | Know how to deposit your data into the Dataverse repository | . ",
+    "url": "http://localhost:4000/#learning-objectives",
+    "relUrl": "/#learning-objectives"
+  },"32": {
+    "doc": "Introduction",
+    "title": "Schedule",
+    "content": "| 0:00 | Welcome and using Zoom | . | 0:05 | Introduction | . | 0:15 |   | . | 0:30 |   | . | 0:45 |   | . | 1:00 | Wrap-up and Discussion | . ",
+    "url": "http://localhost:4000/#schedule",
+    "relUrl": "/#schedule"
+  },"33": {
+    "doc": "Introduction",
+    "title": "Resources",
+    "content": ". | [eg. link to external slides] | . ",
+    "url": "http://localhost:4000/#resources",
+    "relUrl": "/#resources"
+  },"34": {
+    "doc": "Introduction",
+    "title": "Introduction",
+    "content": "Geospatial Data Management, Metadata, and Project Archiving . ",
+    "url": "http://localhost:4000/",
+    "relUrl": "/"
+  },"35": {
+    "doc": "Project Archiving with Borealis",
+    "title": "FCOR 599 - Depositing your data in UBC Dataverse Collection (@Borealis)",
+    "content": "UBC Library provides our researchers with access to three different purpose-built data repositories: UBC Dataverse Collection, Dryad, and the Federal Research Data Repository (FRDR). For this course, we going to focus on UBC Dataverse Collection (@Borealis) because this is the repository you will use to deposit your MGEM data, and also this is our preferred and most supported repository. ",
+    "url": "http://localhost:4000/content/project-archiving-borealis.html#fcor-599---depositing-your-data-in-ubc-dataverse-collection-borealis",
+    "relUrl": "/content/project-archiving-borealis.html#fcor-599---depositing-your-data-in-ubc-dataverse-collection-borealis"
+  },"36": {
+    "doc": "Project Archiving with Borealis",
+    "title": "Workflow for depositing into UBC Dataverse Collection",
+    "content": "Take a look at our one-pager to start with data deposits in UBC MGEM Collection . Quick Guide to UBC Dataverse . | Get yourself an ORCID. This is a way to differentiate you from other researchers with a similar name, and it will help you connect things like grants, research data and publications in one place. It’s also one of the main ways that search engines such as Google or Datacite link your work back to you. | Organize your data on your local computer. Create a directory for your data deposit. Create a sub-directory for each main type of data you’re going to deposit. Here are some one-pager instructions to file naming and data organizing - File naming guidelines and File format recommendations. Dataverse automatically unzips your zipped folders. To preserve data structure and file storage hierarchy, we recommend to double zip deposited data folders to keep your intended order. | Check out our one-page guidance on creating README files. You can download our template README file and work from it. README files are essential for data deposits, they explain what the dataset is all about, naming the variables, software used, licenses, data partners, etc. Note that we will not publish your dataset without an understandable README file. | Think of a title and a description for your dataset. You could probably use the same ones as in your final report. Since your data deposit is geospatial in nature, please add Geospatial Metadata from the metadata menu to ensure that it will display on any map based research data interfaces, such as Geodisy. | There are lots of metadata elements in Dataverse but not all of them will apply to your dataset. The more metadata you add, the more comprehensive your dataset will be. For each element, ask yourself if it applies to your data. Hover over the question mark to read the guidance about that element. If it does, try and fill it in. Time spent on your metadata now equals better findability (in Google, Google Data, Summon, etc) and a better chance that someone else will find and use your data in the future. | Deposit a PDF of your final report. PDFs follow ISO 32000-1:2008, which means they are not proprietary and are expected to be durable as files for the future. Be consistent in your date formatting as you saw earlier in our one-page guide. | When done, click on Submit Data. We will review it and get back to you with more curational suggestions, e.g. README file, file structure, file formats, descriptions of files, data tags, etc. When in doubt, please contact research.data@ubc.ca for help! . | . ",
+    "url": "http://localhost:4000/content/project-archiving-borealis.html#workflow-for-depositing-into-ubc-dataverse-collection",
+    "relUrl": "/content/project-archiving-borealis.html#workflow-for-depositing-into-ubc-dataverse-collection"
+  },"37": {
+    "doc": "Project Archiving with Borealis",
+    "title": "Project Archiving with Borealis",
+    "content": " ",
+    "url": "http://localhost:4000/content/project-archiving-borealis.html",
+    "relUrl": "/content/project-archiving-borealis.html"
+  },"38": {
+    "doc": "README Files",
+    "title": "README Files",
+    "content": "README files are text-based files explaining a project or parts of a project so others know what it is, and they’re one of the most important pieces of your collection of data. Create README files to introduce your data to others, and to keep track of things yourself. Ideally, they should be found in the top-level directory of a project, and will link to other documents or relevant information when necessary. There are many sources online for tips and tricks to creating a good README file, but ultimately it should reflect the information that is important to your project. | UBC Library’s Quick Guide to Creating a README for your dataset | makeareadme.com | . ",
+    "url": "http://localhost:4000/content/readme-files.html",
+    "relUrl": "/content/readme-files.html"
+  },"39": {
+    "doc": "Slide Deck",
+    "title": "Slide Deck",
+    "content": "The slides for this session can be found embedded below. You can also view full screen here: https://ubc-lib-geo.github.io/presentations/fcor599#/ . ",
+    "url": "http://localhost:4000/content/slide-deck.html",
+    "relUrl": "/content/slide-deck.html"
+  },"40": {
+    "doc": "Version Control and Data Preservation",
+    "title": "Version Control",
+    "content": "Version control systems are not required for your data management workflows, but they sure can help to keep track of changes to your files. There are many types of version control systems. If you decide you want to use one, consider the trends in your profession/industry. A couple of relevant examples: Git is very common and widely integrated. Kart is a Git-based version control system used for geospatial and tabular data. ",
+    "url": "http://localhost:4000/content/version-control-and-data-preservation.html#version-control",
+    "relUrl": "/content/version-control-and-data-preservation.html#version-control"
+  },"41": {
+    "doc": "Version Control and Data Preservation",
+    "title": "Data Preservation",
+    "content": "Data preservation refers to things beyond backing your data up on a hard drive. This is a HUGE topic in libraries as we continually transition to digital data collections that require long-term storage and use. Data preservation ensures long-term access to and use of data – beyond the limits of media lifetimes. Data preservation topics include procedures regarding file formats, copyright and permissions, persistent storage and geographic location, and metadata. ",
+    "url": "http://localhost:4000/content/version-control-and-data-preservation.html#data-preservation",
+    "relUrl": "/content/version-control-and-data-preservation.html#data-preservation"
+  },"42": {
+    "doc": "Version Control and Data Preservation",
+    "title": "Data Preservation - File Formats",
+    "content": "Have you ever had to purchase a software or license just to open a file? Have you tried to open a file that was obsolete? Platform independent, character/text based formats tend to be MUCH more flexible in the long run compared with binary, software-specific file formats. You should decide which file formats are the most reliable and persistent for your data. Prioritize platform-independent, text-based formats, and UTF-8 character encoding when possible. ",
+    "url": "http://localhost:4000/content/version-control-and-data-preservation.html#data-preservation---file-formats",
+    "relUrl": "/content/version-control-and-data-preservation.html#data-preservation---file-formats"
+  },"43": {
+    "doc": "Version Control and Data Preservation",
+    "title": "Version Control and Data Preservation",
+    "content": " ",
+    "url": "http://localhost:4000/content/version-control-and-data-preservation.html",
+    "relUrl": "/content/version-control-and-data-preservation.html"
+  }
+}
