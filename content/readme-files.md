@@ -5,7 +5,7 @@ parent: Geospatial Data Management
 nav_order: 4
 ---
 
-# README Files
+# Creating README Files
 
 README files are text-based files explaining a project or parts of a project so others know what it is, and they're one of the most important pieces of your collection of data. Create README files to introduce your data to others, and to keep track of things yourself. Ideally, they should be found in the top-level directory of a project, and will link to other documents or relevant information when necessary.
 

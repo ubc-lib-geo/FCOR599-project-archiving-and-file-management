@@ -5,7 +5,7 @@ parent: Geospatial Data Management
 nav_order: 2
 ---
 
-# Attribute Naming
+# Naming Your Attributes
 
 When working with vector data you may encounter additional difficulties with naming attribute field names, especially if they're the product of a calculation using other field names. So it's good to abide by some important rules. If you need to start a codebook to define condensed attribute names, use any software or tool you're comfortable using to create it, like Google Docs, but you should save it as a file in a plain text format like .txt or .md. Just as with file naming conventions, attribute naming best practices include being **consistent** and keeping file names **short** and **descriptive**.
 

@@ -5,7 +5,7 @@ parent: Geospatial Data Management
 nav_order: 1
 ---
 
-# File Naming
+# Naming Your Files
 
 Naming files doesn't seem super important, but it's one of the better investments you can make in good data management habits. Best practices include being **consistent** and keeping file names **short** and **descriptive**.
 

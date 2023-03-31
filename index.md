@@ -4,7 +4,7 @@ title: Introduction
 nav_order: 1
 ---
 
-Geospatial Data Management, Metadata, and Project Archiving
+# Geospatial Data Management, Metadata, and Project Archiving
 
 ## Learning objectives
 
